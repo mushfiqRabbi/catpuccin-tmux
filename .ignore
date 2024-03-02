@@ -1,0 +1,6 @@
+.git/
+.vscode/
+!.env
+!.env.*
+!.env.*.local
+!.stylelintrc.json
