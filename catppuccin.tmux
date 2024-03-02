@@ -36,7 +36,7 @@ setw() {
 build_window_icon() {
   local window_status_icon_enable=$(get_tmux_option "@catppuccin_window_status_icon_enable" "yes")
 
-  local custom_icon_window_zoom=$(get_tmux_option "@catppuccin_icon_window_zoom" "󰁌")
+  local custom_icon_window_zoom=$(get_tmux_option "@catppuccin_icon_window_zoom" " 󰁌 ")
 
   if [ "$window_status_icon_enable" = "yes" ]; then
     # #!~[*-]MZ
